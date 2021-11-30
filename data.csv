@@ -1,0 +1,11 @@
+UserName,Password,CustomerId,,,,,,,,,,,,,,
+mngr370937,reqYvaj,36859,,,,,,,,,,,,,,
+1.62697E+12,1780,HTTP Request,200,OK,Thread Group 1-1,text,TRUE,,10902,244,1,1,https://demo.guru99.com/v4/,1511,0,1187
+1.62697E+12,321,HTTP Request,200,OK,Thread Group 1-1,text,TRUE,,10353,234,1,1,https://demo.guru99.com/v4/manager/Managerhomepage.php,316,0,0
+1.62697E+12,326,HTTP Request,200,OK,Thread Group 1-1,text,TRUE,,11465,248,1,1,https://demo.guru99.com/v4/manager/EditCustomer.php,314,0,0
+1.62736E+12,1713,HTTP Request,200,OK,Thread Group 1-1,text,TRUE,,10883,244,1,1,https://demo.guru99.com/v4/,1485,0,1146
+1.62736E+12,307,HTTP Request,200,OK,Thread Group 1-1,text,TRUE,,10359,234,1,1,https://demo.guru99.com/v4/manager/Managerhomepage.php,296,0,0
+1.62736E+12,320,HTTP Request,200,OK,Thread Group 1-1,text,TRUE,,11441,255,1,1,https://demo.guru99.com/v4/manager/EditCustomer.php,300,0,0
+1638249757963,1074,HTTP Request,200,OK,Thread Group 1-1,text,true,,10877,244,1,1,http://demo.guru99.com/v4/,803,0,465
+1638249759043,343,HTTP Request,200,OK,Thread Group 1-1,text,true,,10427,234,1,1,http://demo.guru99.com/v4/manager/Managerhomepage.php,331,0,0
+1638249759387,339,HTTP Request,200,OK,Thread Group 1-1,text,true,,11447,255,1,1,http://demo.guru99.com/v4/manager/EditCustomer.php,325,0,0
