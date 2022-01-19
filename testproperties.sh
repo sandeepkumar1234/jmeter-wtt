@@ -17,5 +17,5 @@ if [ -f "$instanceFile" ]; then
    sed -i "s|$application_url|$updated_application_url|g" "$instanceFile"
    sed -i "s|$index_name|$updated_index_name|g" "$instanceFile"
    sed -i "s|$es_url|$updated_es_url|g" "$instanceFile"
-   sed -i "s/$run_id/$updated_test_planId/g" "$instanceFile"
+   sed -i "s/$test_planId/$updated_test_planId/g" "$instanceFile"
 fi
