@@ -394,8 +394,8 @@
                 <stringProp name="Argument.value">jmeter</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
-              <elementProp name="es.runid" elementType="Argument">
-                <stringProp name="Argument.name">es.runid</stringProp>
+              <elementProp name="runId" elementType="Argument">
+                <stringProp name="Argument.name">runId</stringProp>
                 <stringProp name="Argument.value">${__P(runid,)}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
