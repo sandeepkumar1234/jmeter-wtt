@@ -2,7 +2,7 @@
 
 instanceFile=${WORKSPACE}/test.properties
 if [ -f "$instanceFile" ]; then
-   application_url=$(cat "$instanceFile" | grep url)
+   application_url=$(cat "$instanceFile" | grep testurl)
    url_port=$(cat "$instanceFile" | grep urlport)
    url_path=$(cat "$instanceFile" | grep urlpath)
    url_protocol=$(cat "$instanceFile" | grep urlprotocol)
@@ -11,7 +11,7 @@ if [ -f "$instanceFile" ]; then
    test_planId=$(cat "$instanceFile" | grep runid)
 
    
-   updated_application_url="url=$applicationurl"
+   updated_application_url="testurl=$applicationurl"
    updated_url_port="urlport=$urlport"
    updated_url_path="urlport=$urlpath"
    updated_url_protocol="urlport=$urlprotocol"
