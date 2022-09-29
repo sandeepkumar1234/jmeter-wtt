@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 instanceFile=${WORKSPACE}/test.properties
 if [ -f "$instanceFile" ]; then
