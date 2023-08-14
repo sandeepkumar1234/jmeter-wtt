@@ -9,6 +9,6 @@ spec:
   containers:
   - image: imagename
     name: jmeter
-    command: ["sh","-c","jmeter -n -t 1.jmx -l data.csv -q test.properties"]
+    command: ["sh","-c","jmeter -n -t jmeter.jmx -l data.csv -q test.properties"]
   restartPolicy: Never
 status: {}
