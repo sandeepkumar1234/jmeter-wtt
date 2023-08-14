@@ -5,7 +5,6 @@ metadata:
   labels:
     run: jmeter
   name: podname
-  namespace: default
 spec:
   containers:
   - image: imagename
